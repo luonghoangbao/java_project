@@ -40,7 +40,9 @@ public class ConnectionUtils {
 			  int user_id = rs.getInt("user_id");
 			  System.out.println("id:" + id + "   " + "category_id:" + category_id + "    " +  "name :" + name +   "     "  +   "description:"  + description +  "   " +  "detail:" + detail +  "   " +  "image:" + image + "   " /*+ "date:" + date.toString()*/ + "user_id:" + user_id);
 		  }
-		  String sql1 = "select name from categories";
+		  String sql1 = "select categories.name, news.category_id"
+		  			  + "from categories"
+		  			  + "left join news on news.category_id = categories.id";
 		  Statement statement1 = conn.createStatement();
 		  ResultSet rs1 = statement1.executeQuery(sql);
 		  System.out.println("Information of name from Categories:");
