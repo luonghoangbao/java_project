@@ -1,5 +1,5 @@
 package Examples;
-
+//Viet ham tinh tong cua 10 so dau tien
 public class mainvidu3 {
 
 	public static void main(String[] args) {

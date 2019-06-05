@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/jsp/examples/utils/ConnectionUtils.java=UTF-8
+encoding//src/jsp/examples/utils/InsertData.java=UTF-8
+encoding//src/jsp/examples/utils/InsertUpdateDeleteDataTest.java=UTF-8
 encoding//src/jsp/examples/utils/SQLServerConnUtils_SQLJDBC.java=UTF-8
 encoding//src/jsp/examples/utils/SQLSeverConnUtils_JTDS.java=UTF-8

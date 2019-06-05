@@ -38,7 +38,7 @@ public class Homework {
 				int age = input1.nextInt();
 				System.out.println("Nhap tien luong nhan vien : ");
 				double Salary = input1.nextDouble();
-				Employee employee1 = new Employee(id, name, age, Salary, job);
+				Employee employee1 = new Employee(name, id, age, Salary, job);
 				listEmployee.add(employee1);
 				
 				break;
