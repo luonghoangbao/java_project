@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  height:40px;
+  background-color: #3B5998;
+  position :fixed;
+  top :0;
+  width:100%;
+}
+
+li {
+  float: left;
+  color:white;
+  padding: 10px 0px 5px 70px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  background-color:#008000;
+  margin-top:0px;
+
+  }
+
+li a:hover {
+  background-color: #111;
+}
+p{
+	margin-top:0px;
+	margin-left:20px;
+}
+h2{
+	background-color :white;
+	  text-align: center;
+	margin: -10px 50px -10px 50px;
+}
+.form {
+  position:absolute;
+  width: 500px;
+  padding: 100px;
+  border: white;
+  margin: 400px;
+  border: 1px solid gray;
+  border-radius: 10px; 
+  margin-top: 100px;
+  background: linear-gradient(white, #D3D8E8);
+}
+.sub {
+  background-color: #3B5998;
+  padding: 10px 100px 10px 100px;
+  color : white;
+  font-weight: bold;
+  margin-left: 45px;
+} 
+
+td {
+
+  padding-left:0px;
+  padding-right : -100px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+#create{
+  background-color: green;
+  padding: 7px 20px 7px 20px;
+  color: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  
+}
+form{
+	padding-left:70px;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+#username{
+	margin-left:-250px;
+}
+#password{
+	margin-left:-250px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type="text/css" href = "LoginFB.css">
+		<script type="text/javascript" src="LoginFB.js" ></script>
+	</head>
+	<body>
+		<ul>
+			<li><p style="font-size:2em">FACEBOOK</p></li>
+			<li><a href="https://facebook.com.vn">Tạo tài khoản mới</a></li>
+		</ul>
+		<div class = "form">
+			<h2>Đăng nhập Faceobook</h2>
+			<form action="LoginServlet" method="post" >
+			<table>
+				<tr>
+					<td><input<label for="email"  ></label> </td> 
+					<td><input id= "username" type="email" placeholder="Email hoặc số điện thoại" name="email" size="30"/></td>
+				</tr>
+				<tr>
+					<td><label for="password"></label>  </td>
+					<td><input id = "password" type="password" placeholder="Mật khẩu"  name="password" size="30"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align:center"><input class="sub" type="submit" onclick="checkLogin()" value="Đăng nhập"/></td>
+				</tr>
+				<tr>
+					<td style ="text-align:center" ><p> __________hoặc___________</p></td>
+				</tr>	
+				<tr>
+					<td colspan="2" style="text-align:center"><input id="create" type="submit"  value="Tạo tài khoản mới"/></td>
+				</tr>
+				<tr>
+					<td style = "text-align:center"><p><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=www_account_switcher">Quên tài khoản?</a></p></td>
+				</tr>
+			</table>
+			</form>
+		</div>
+	</body>
+</html>
