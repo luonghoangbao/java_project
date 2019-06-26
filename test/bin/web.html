@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Navbar Example</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   </head>
+   <body>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-success fixed-top">
+			<a class="navbar-brand" href="#">o7planning</a>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link">Java</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link">C/C++</a>
+					</li>
+				</ul>
+         <!-- Navbar links -->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Portfolis</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Link 1</a>
+							<a class="dropdown-item" href="#">Link 2</a>
+							<a class="dropdown-item" href="#">Blog Post</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Blog</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Blog home 1</a>
+							<a class="dropdown-item" href="#">Blog home 2</a>
+							<a class="dropdown-item" href="#">Blog Post</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Other Pages</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Javascript</a>
+							<a class="dropdown-item" href="#">Css</a>
+							<a class="dropdown-item" href="#">Bootstrap</a>
+						</div>
+					</li>
+				</ul>
+		</nav>
+				<!--Carousel-->
+				<div id="myCarousel" class="carousel slide border" data-ride="carousel">
+					<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="photo7.png" alt="Leopard">
+							<div class="carousel-caption">
+								<h5>Lion</h5>
+								<small>
+								Second Slide.
+								This is a description for the second slide
+								</small>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="photo8.png" alt="Cat">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="photo6.png" alt="Lion">
+						</div>
+					</div>
+				<!-- Controls -->
+					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
